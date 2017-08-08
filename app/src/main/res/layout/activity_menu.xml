@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView android:id="@+id/peroid"
+        style="@style/menu_tv"
+        android:background="@color/colorAccent"
+        android:text="时间区间选择" />
+    <TextView android:id="@+id/single"
+        style="@style/menu_tv"
+        android:background="@color/weekend_fore"
+        android:text="单一时间选择" />
+</LinearLayout>
